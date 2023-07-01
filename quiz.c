@@ -17,7 +17,7 @@ int main (){
     int score;
 
     printf("***  QUIZ GAME  ***\n");
-    FILE *pF = fopen("results.txt", "w");
+    FILE *pF = fopen("results.txt", "a");
 
     for(int i = 0; i < numberOfQuestions; i++){
         printf("****************************************\n");
